@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000
 
 // Initial page
 app.get('/', (req, res) => {
-    res.json("index")
+    res.send("<h1>Veterinary API - Thăng Long</h1>")
 })
 
 //Routes
